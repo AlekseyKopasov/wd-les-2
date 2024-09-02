@@ -779,7 +779,28 @@
         <li>Выберите тарифный план</li>
       </ol>
     </section>
-
+    <section class="slide">
+      <h2>Регистрация и добавление нового макета</h2>
+      <figure>
+        <img src="img/figma-imp.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Копирование макета</h2>
+      <figure>
+        <img src="img/figma-dubl.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
     <section class="slide">
       <div class="columns two" style="align-items: center;">
         <div class="center-block">
@@ -796,13 +817,13 @@
 
     </section>
 
+    <!-- TODO: Windows Terminal -->
     <section class="slide clear">
       <div class="place center-block">
         <h2>Windows Terminal</h2>
         <img src="img/terminal.png" alt="">
       </div>
     </section>
-
     <section class="slide">
       <h2>Windows Terminal: настройка</h2>
       <ol>
@@ -811,13 +832,25 @@
       </ol>
     </section>
 
+    <!-- TODO: SSH -->
     <section class="slide">
       <h2>Настройка доступа в GitHub по SSH</h2>
+      <div class="spotlight" style="
+            --spotlight-radius: 0;
+            --spotlight-opacity: 20%;
+            --spotlight-width: 1024px;
+            --spotlight-height: 50px;
+            --spotlight-top: -95px;
+        "></div>
       <ol>
         <li>Проверка наличия SSH-ключей: <b><mark>ls -al ~/.ssh</mark></b></li>
+        <li>Генерация нового ssh-ключа: <b><mark>ssh-keygen -t rsa</mark></b></li>
+        <li>Запоминаем путь, где сгенерировался ключ и переходим туда. Например,
+          <b><mark>/home/user/.ssh/id_rsa.pub</mark></b></li>
+        <li>Либо выполняем в терминале команду <b><mark>cat ~/.ssh/id_rsa.pub</mark></b></li>
+        <li>Открываем настройки на сайте GitHub и указываем наш ключ</li>
       </ol>
     </section>
-
     <section class="slide">
       <h2>По умолчанию публичные ключи могут быть имена:</h2>
       <ul>
@@ -827,7 +860,6 @@
         <li>id_rsa.pub</li>
       </ul>
     </section>
-
     <section class="slide">
       <div class="spotlight" style="
             --spotlight-radius: 0;
@@ -846,7 +878,6 @@
         <li>Открываем настройки на сайте GitHub и указываем наш ключ</li>
       </ol>
     </section>
-
     <section class="slide">
       <div class="spotlight" style="
             --spotlight-radius: 0;
@@ -865,7 +896,6 @@
         <li>Открываем настройки на сайте GitHub и указываем наш ключ</li>
       </ol>
     </section>
-
     <section class="slide">
       <div class="spotlight" style="
             --spotlight-radius: 0;
@@ -884,7 +914,6 @@
         <li>Открываем настройки на сайте GitHub и указываем наш ключ</li>
       </ol>
     </section>
-
     <section class="slide">
       <div class="spotlight" style="
             --spotlight-radius: 0;
@@ -902,6 +931,17 @@
         <li>Либо выполняем в терминале команду <b><mark>cat ~/.ssh/id_rsa.pub</mark></b></li>
         <li>Открываем настройки на сайте GitHub и указываем наш ключ</li>
       </ol>
+    </section>
+    <section class="slide">
+      <h2>Добавление SSH-ключа в профиль GitHub</h2>
+      <figure>
+        <img src="img/ssh-1.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
     </section>
 
     <section class="slide">
