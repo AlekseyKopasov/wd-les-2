@@ -29,11 +29,50 @@
       <h2 class="shout">Установка и настройка ПО</h2>
     </section>
 
+    <section class="slide">
+      <h2>Инструменты для разработки</h2>
+      <ol>
+        <li>Компьютер</li>
+        <li>Текстовый редактор (Visual Studio Code, Notepad++, Sublime Text, Atom)</li>
+        <li>Веб-браузеры (Firefox, Chrome, Opera, Safari, Яндекс Браузер)</li>
+        <li>Графический редактор</li>
+        <li>Система контроля версий</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Инструменты для разработки +</h2>
+      <ol>
+        <li>FTP программа (FileZilla, WinSCP)</li>
+        <li>Система автоматизации (gulp, webpack, vite)</li>
+        <li>Шаблоны, библиотеки, фреймворки и т. д</li>
+        <li>...</li>
+      </ol>
+    </section>
+
     <section class="slide clear">
       <div class="place center-block">
         <h2>Google chrome</h2>
         <img src="img/chrome.png" alt="">
         <p>Ссылка на скачивание</p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Браузеры</h2>
+      <div class="columns two">
+        <ul>
+          <li><a href="https://www.google.com/intl/ru_ru/chrome/" target="_blank">Chrome</a></li>
+          <li><a href="https://www.mozilla.org/ru/firefox/developer/" target="_blank">Firefox Developer Edition</a></li>
+          <li><a href="https://brave.com/ru/download/" target="_blank">Brave</a></li>
+          <li><a href="https://browser.yandex.ru/" target="_blank">Яндекс Браузер</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.opera.com/ru" target="_blank">Opera</a></li>
+          <li><a href="https://www.microsoft.com/ru-ru/edge?form=MA13FJ" target="_blank">Edge</a></li>
+          <li><a href="https://apps.apple.com/ru/app/safari/id1146562112" target="_blank">Safari</a></li>
+          <li><a href="https://arc.net/" target="_blank">Arc</a></li>
+        </ul>
       </div>
     </section>
 
@@ -54,7 +93,6 @@
         <li>Консоль</li>
       </ol>
     </section>
-
     <section class="slide">
       <h2>Для чего нам современный браузер?</h2>
       <ol>
@@ -63,7 +101,6 @@
         <li>Вносить изменения в код непосредственно в браузере</li>
       </ol>
     </section>
-
     <section class="slide">
       <h2>Для чего нам современный браузер?</h2>
       <ol>
@@ -73,7 +110,6 @@
         <li>Анализировать запросы и загружаемые ресурсы на странице</li>
       </ol>
     </section>
-
     <section class="slide">
       <h2>Для чего нам современный браузер?</h2>
       <ol>
@@ -84,7 +120,6 @@
         <li>Доступ к локальному хранилищу браузера</li>
       </ol>
     </section>
-
     <section class="slide">
       <h2>Для чего нам современный браузер?</h2>
       <ol>
@@ -96,7 +131,6 @@
         <li>Аудит</li>
       </ol>
     </section>
-
     <section class="slide">
       <h2>Для чего нам современный браузер?</h2>
       <ol>
@@ -112,59 +146,87 @@
 
     <section class="slide clear">
       <div class="place center-block">
-        <h2>GitHub</h2>
-        <img src="img/github.png" alt="">
+        <h2>Chrome DevTools</h2>
       </div>
     </section>
 
-    <section class="slide">
-      <h2>GitHub</h2>
-      <ol>
-        <li>Зарегистрироваться</li>
-        <li>Создать репозиторий</li>
-      </ol>
-    </section>
-
+    <!-- TODO: Git -->
     <section class="slide clear">
       <div class="place center-block">
         <h2>Git</h2>
         <img src="img/git.png" alt="">
       </div>
     </section>
-
     <section class="slide">
       <h2>Git</h2>
       <p>Специальная программа, которая позволяет отслеживать любые изменения в&nbsp;файлах, хранить их&nbsp;версии
         и&nbsp;оперативно
         возвращаться в&nbsp;любое сохранённое состояние</p>
     </section>
-
     <section class="slide">
       <h2>Git</h2>
+      <figure>
+        <img src="img/git-2.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://dzen.ru/a/Y_ouumjQ0T06dYKS" target="_blank">HowToSchool</a></cite>
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Git: установка и настройка</h2>
+      <ol>
+        <li>Перейти на страницу загрузки <a href="https://git-scm.com/" target="_blank">Git</a></li>
+        <li>Скачать дистрибутив</li>
+        <li>Запустить установочный файл и следовать инструкциям на экране</li>
+
+        <p><mark>После завершения установки открыть терминал или командную строку и ввести команду <b>git --version</b>. Если Git правильно установлен, отобразится версия Git</mark></p>
+      </ol>
+    </section>
+    <section class="slide">
+      <h2>Git: установка и настройка</h2>
+      <ol>
+        <li><b>git config --global user.name "Your Name"</b> — имя автора коммита</li>
+        <li><b>git config --global user.email "youremail@example.com"</b> — email автора коммита</li>
+        <li><b>git config --list</b> — проверить настройки</li>
+      </ol>
+    </section>
+    <section class="slide">
+      <h2>Git: локальный репозиторий</h2>
+      <ol>
+        <li>Создать пустую директорию на диске</li>
+        <li>Перейти в созданную папку и запустить терминал</li>
+        <li><b>git init</b> — И=инициализация репозитория</li>
+        <li><b>git add</b> — добавить файлы в репозиторий</li>
+        <li><b>git commit -m "Initial commit"</b> — коммит изменений</li>
+        <li><b>git branch &lt;название_ветки&gt;</b> — создать новую ветку</li>
+      </ol>
+    </section>
+    <section class="slide">
+      <h2>Git: команды</h2>
       <ol>
         <li><b>git init</b> - инициализирует локальный git-репозиторий</li>
       </ol>
     </section>
-
     <section class="slide">
-      <h2>Git</h2>
+      <h2>Git: команды</h2>
       <ol>
         <li><b>git init</b> - инициализирует локальный git-репозиторий</li>
         <li><b>git add</b> - переносит изменения из&nbsp;рабочего каталога в&nbsp;раздел проиндексированных файлов</li>
       </ol>
     </section>
-
     <section class="slide">
-      <h2>Git</h2>
+      <h2>Git: команды</h2>
       <ol>
         <li><b>git init</b> - инициализирует локальный git-репозиторий</li>
         <li><b>git add</b> - переносит изменения из&nbsp;рабочего каталога в&nbsp;раздел проиндексированных файлов</li>
         <li><b>git status</b> - отображает состояние рабочего каталога и&nbsp;раздела проиндексированных файлов</li>
       </ol>
     </section>
-
     <section class="slide">
-      <h2>Git</h2>
+      <h2>Git: команды</h2>
       <ol>
         <li><b>git init</b> - инициализирует локальный git-репозиторий</li>
         <li><b>git add</b> - переносит изменения из&nbsp;рабочего каталога в&nbsp;раздел проиндексированных файлов</li>
@@ -172,17 +234,15 @@
         <li><b>git commit</b> - делает снимок состояния проекта на&nbsp;текущий момент времени</li>
       </ol>
     </section>
-
     <section class="slide">
-      <h2>Git</h2>
+      <h2>Git: команды</h2>
       <ol>
         <li><b>git push</b> - передает изменения из&nbsp;локального репозитория (набора файлов из&nbsp;папки . git)
           в&nbsp;удаленный</li>
       </ol>
     </section>
-
     <section class="slide">
-      <h2>Git</h2>
+      <h2>Git: команды</h2>
       <ol>
         <li><b>git push</b> - передает изменения из&nbsp;локального репозитория (набора файлов из&nbsp;папки . git)
           в&nbsp;удаленный</li>
@@ -190,9 +250,8 @@
           обновление локального репозитория этим содержимым</li>
       </ol>
     </section>
-
     <section class="slide">
-      <h2>Git</h2>
+      <h2>Git: команды</h2>
       <ol>
         <li><b>git push</b> - передает изменения из&nbsp;локального репозитория (набора файлов из&nbsp;папки . git)
           в&nbsp;удаленный</li>
@@ -202,9 +261,8 @@
           branch , в&nbsp;единую ветку</li>
       </ol>
     </section>
-
     <section class="slide">
-      <h2>Git</h2>
+      <h2>Git: команды</h2>
       <ol>
         <li><b>git push</b> - передает изменения из&nbsp;локального репозитория (набора файлов из&nbsp;папки . git)
           в&nbsp;удаленный</li>
@@ -216,18 +274,257 @@
       </ol>
     </section>
 
+    <!-- TODO: GitHub -->
+    <section class="slide clear">
+      <div class="place center-block">
+        <h2>GitHub</h2>
+        <img src="img/github.png" alt="">
+      </div>
+    </section>
+    <section class="slide">
+      <h2>GitHub</h2>
+      <ol>
+        <li>Зарегистрироваться</li>
+        <li>Создать репозиторий</li>
+      </ol>
+    </section>
+
+    <!-- TODO: GitHub desktop -->
     <section class="slide clear">
       <div class="place center-block">
         <h2>GitHub desktop</h2>
         <img src="img/github-desk.png" alt="">
       </div>
     </section>
-
+    <section class="slide">
+      <h2>Установка и авторизация</h2>
+      <figure>
+        <img src="img/ghd-1.webp" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://docs.github.com/ru/desktop/overview/getting-started-with-github-desktop" target="_blank">docs.github.com</a></cite>
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Настройка</h2>
+      <figure>
+        <img src="img/ghd-2.webp" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://docs.github.com/ru/desktop/overview/getting-started-with-github-desktop" target="_blank">docs.github.com</a></cite>
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Создание, добавление и клонирование репозиториев</h2>
+      <figure>
+        <img src="img/ghd-3.webp" width="100%" height="100%" alt="" style="
+        max-height: 300px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://docs.github.com/ru/desktop/overview/getting-started-with-github-desktop" target="_blank">docs.github.com</a></cite>
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Создание репозитория</h2>
+      <figure>
+        <img src="img/repo-create.png" width="100%" height="100%" alt="" style="
+        max-height: 300px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Клонирование репозитория</h2>
+      <figure>
+        <img src="img/repo-clone.png" width="100%" height="100%" alt="" style="
+        max-height: 300px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>GitHub desktop: интерфейс</h2>
+      <figure>
+        <img src="img/ghd-interface.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+       <cite class="small" >Источник: <a href="https://htmlacademy.ru/blog/git/github-desktop" target="_blank">htmlacademy.ru</a></cite>
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Публикация репозитория</h2>
+      <figure>
+        <img src="img/repo-pub.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+       <cite class="small" >Источник: <a href="https://htmlacademy.ru/blog/git/github-desktop" target="_blank">htmlacademy.ru</a></cite>
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Сохранение изменений</h2>
+      <figure>
+        <img src="img/repo-cm.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Пуш коммита в удаленный репозиторий</h2>
+      <figure>
+        <img src="img/repo-push.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Клонирование существующего репозитория</h2>
+      <figure>
+        <img src="img/repo-clone.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Создание ветви</h2>
+      <figure>
+        <img src="img/repo-new-branch.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Обновление локальной ветви</h2>
+      <figure>
+        <img src="img/repo-branch-fetch.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Слияние веток</h2>
+      <div class="columns three">
+        <figure>
+          <figcaption>1/1</figcaption>
+          <img src="img/repo-b-merge-1.png" width="100%" height="100%" alt="" style="
+          max-height: 370px;
+          margin: 0 auto;
+          display: flex;
+          object-fit: contain;
+        ">
+        </figure>
+        <figure>
+          <figcaption>1/2</figcaption>
+          <img src="img/repo-b-merge-2.png" width="100%" height="100%" alt="" style="
+          max-height: 370px;
+          margin: 0 auto;
+          display: flex;
+          object-fit: contain;
+        ">
+        </figure>
+        <figure>
+          <figcaption>2</figcaption>
+          <img src="img/repo-b-merge-3.png" width="100%" height="100%" alt="" style="
+          max-height: 370px;
+          margin: 0 auto;
+          display: flex;
+          object-fit: contain;
+        ">
+        </figure>
+      </div>
+    </section>
+    <section class="slide">
+      <h2>Отправка локальных изменения в удаленный репозиторий</h2>
+      <figure>
+        <img src="img/repo-push-2.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Конфликт при слиянии</h2>
+      <figure>
+        <img src="img/repo-conflict.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Конфликт при слиянии</h2>
+      <figure>
+        <img src="img/repo-conflict-2.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>Конфликт при слиянии: разрешен</h2>
+      <figure>
+        <img src="img/repo-conflict-3.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
+    <section class="slide">
+      <h2>История коммитов</h2>
+      <figure>
+        <img src="img/repo-hist.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </figure>
+    </section>
     <section class="slide">
       <h2>GitHub desktop</h2>
       <ol>
         <li>Создать репозиторий</li>
-        <li>Клонировать репо локально</li>
+        <li>Клонировать репозиторий локально</li>
         <li>Добавить/сохранить изменения</li>
         <li>Создать новую ветку</li>
         <li>Слить ветку с мастер-веткой</li>
@@ -236,13 +533,70 @@
       </ol>
     </section>
 
+    <!-- TODO: редакторы кода -->
+    <section class="slide clear">
+      <h2>Редакторы кода</h2>
+      <ul>
+        <li><b>Notepad++</b>: бесплатный, простой, универсальный, локальный</li>
+        <li><b>Sublime Text</b>: платный, простой, универсальный, локальный</li>
+      </ul>
+    </section>
+    <section class="slide clear">
+      <h2>IDE</h2>
+      <ul>
+        <li><b>Visual Studio Code</b></li>
+      </ul>
+    </section>
+    <section class="slide clear">
+      <h2>IDE от JetBrains</h2>
+
+      <blockquote>
+        <a href="https://blog.jetbrains.com/blog/2022/12/06/update-on-jetbrains-statement-on-ukraine/">Заявление JetBrains о приостановке продажи, исследования и разработки в России и Беларуси</a>
+      </blockquote>
+    </section>
+    <section class="slide clear">
+      <h2>IDE от JetBrains</h2>
+      <ul>
+        <li>PhpStorm</li>
+        <li>WebStorm</li>
+        <li>PyCharm</li>
+      </ul>
+    </section>
+
+    <!-- TODO: VS Code -->
     <section class="slide clear">
       <div class="place center-block">
         <h2>VS Code</h2>
         <img src="img/vs-code.png" alt="">
       </div>
     </section>
+    <section class="slide clear">
+      <h2>VS Code</h2>
+      <p>Запускать VS Code можно даже на слабых компьютерах</p>
+      <p>Редактор работает на машинах с 1 ГБ оперативной памяти и процессором с частотой от 1,6 ГГц</p>
+    </section>
+    <section class="slide clear">
+      <h2>VS Code</h2>
+      <figure>
+        <img src="img/vs-pref.png" width="100%" height="100%" alt="" style="
+              max-height: 370px;
+              margin: 0 auto;
+              display: flex;
+              object-fit: contain;
+            ">
+      </figure>
+    </section>
+    <section class="slide clear">
+      <h2>Горячие клавиши</h2>
+      <ul>
+        <li><b>Ctrl + S</b>: Сохранить</li>
+        <li><b>Ctrl + N</b>: Создать новый файл</li>
+        <li><b>Ctrl + K + C / Ctrl + K + U</b>: Закомментировать(раскомментировать) </li>
+        <li><b>Ctrl + Shift + P</b>: Открыть палитру команд</li>
+      </ul>
 
+      <p>Полный список сочетаний клавиш для быстрого доступа к функциям можно узнать в <mark>File → Preferences → Keyboard Shortcuts</mark></p>
+    </section>
     <section class="slide">
       <h2>VS Code: расширения</h2>
       <ol>
@@ -262,21 +616,20 @@
             target="_blank"><b>Atom One Dark Theme</b></a> — темная тема</li>
       </ol>
     </section>
-
     <section class="slide">
       <h2>VS Code: расширения</h2>
       <div class="spotlight" style="
-            --spotlight-radius: 0;
-            --spotlight-opacity: 20%;
-            --spotlight-width: 1024px;
-            --spotlight-height: 50px;
-            --spotlight-top: 106px;
-        "></div>
+                --spotlight-radius: 0;
+                --spotlight-opacity: 20%;
+                --spotlight-width: 1024px;
+                --spotlight-height: 50px;
+                --spotlight-top: 106px;
+            "></div>
       <ol>
         <li><a href="https://marketplace.visualstudio.com/items?itemName=bierner.color-info" target="_blank"><b>Color
               Info</b></a> — для выбора цвета</li>
-        <li><a href="https://marketplace.visualstudio.com/items?itemName=spywhere.guides"
-            target="_blank"><b>Guides</b></a> — для выделения уровней вложенности</li>
+        <li><a href="https://marketplace.visualstudio.com/items?itemName=spywhere.guides" target="_blank"><b>Guides</b></a>
+          — для выделения уровней вложенности</li>
         <li><a href="https://marketplace.visualstudio.com/items?itemName=SirTori.indenticator"
             target="_blank"><b>Indenticator</b></a> — для выделения текущей глубины отступа</li>
         <li><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
@@ -289,7 +642,74 @@
             target="_blank"><b>Atom One Dark Theme</b></a> — темная тема</li>
       </ol>
     </section>
+    <section class="slide">
+      <h2>VS Code: расширения</h2>
+      <ol>
+        <li><b>CSS Peek</b> — позволяет быстро просматривать CSS-правила, применяемые к различным HTML-элементам</li>
+        <li><b>Prettier</b> — для автоформатирования кода</li>
+        <li><b>Colorize</b> — показывает цвета в CSS-файлах</li>
+        <li><b>Auto rename tag</b> —автоматически переименовывает парные теги в HTML</li>
+        <li><b>Path autocomplete</b> — показывает возможный путь к файлу в кавычках</li>
+      </ol>
+    </section>
+    <section class="slide">
+      <h2>VS Code: расширения</h2>
+      <ol>
+        <li><b>HTML CSS Support</b> — автоматически дополняет название ID или HTML-атрибута</li>
+        <li><b>Code Time</b> — для отслеживания прямо в редакторе времени написания кода, встреч</li>
+        <li><b>Settings Sync</b> — для синхронизации настроек на нескольких устройствах</li>
+        <li><b>Tabnine</b> — помощник написания кода на основе ИИ</li>
+        </ol>
+    </section>
+    <section class="slide">
+      <h2>VS Code: расширения</h2>
+      <ol>
+        <li><b>Bracket Pair Color DLW</b> —помогает определить уровень вложенности кода</li>
+        <li><b>VS Code Icons</b>— иконки файлов</li>
+        <li><b>Material Icon Theme</b> — иконки файлов material design</li>
+        <li><b>Git Lens</b> — помогает визуализировать и перемещаться по истории изменений в Git</li>
+        <li><b>Git History</b> — показывает историю коммитов в виде дерева</li>
+        <li><b>Beautify</b> — ещё один «украшатель» кода</li>
+      </ol>
+    </section>
+    <section class="slide clear">
+      <h2>Русификация</h2>
+      <p><mark>Не рекомендуется</mark></p>
+      <ol>
+        <li>Открыть палитру команд с помощью сочетания клавиш Ctrl + Shift + P или ⇧ + ⌘ + P на macOS</li>
+        <li>Ввести команду Configure Display Language и нажать Enter</li>
+        <li>Найти в списке русский язык и выбрать его</li>
+        <li>Перезапустить приложение</li>
+      </ol>
+    </section>
+    <section class="slide clear">
+      <h2>Шрифты для VS Code</h2>
+      <ol>
+        <li>JetBrains Mono</li>
+        <li>Fira Code</li>
+        <li>Monocraft</li>
+        <li><b>Consolas</b></li>
+      </ol>
+    </section>
+    <section class="slide clear">
+      <h2>Темы для VS Code</h2>
+      <div class="columns two">
+        <ul>
+          <li>Atom One Dark</li>
+          <li>Dracula</li>
+          <li>GitHub Theme</li>
+          <li>One Candy Dark</li>
+        </ul>
+        <ul>
+          <li>Night Owl</li>
+          <li>Monaspace</li>
+          <li>Catppuccin</li>
+          <li>Tokyo Night Enhanced</li>
+        </ul>
+      </div>
+    </section>
 
+    <!-- TODO: Figma -->
     <section class="slide clear">
       <div class="columns two">
         <div class="center-block">
@@ -301,6 +721,63 @@
           <img src="img/figma-web.png" alt="">
         </div>
       </div>
+    </section>
+    <section class="slide">
+      <h2>Figma</h2>
+      <ul>
+        <li>Облачное хранение данных</li>
+        <li>Актуальность версий</li>
+        <li>Кроссплатформенность</li>
+        <li>Фреймы</li>
+        <li>Компоненты</li>
+        <li>Многопользовательское редактирование</li>
+        <li>Условная бесплатность</li>
+        <li>Обновляемость</li>
+      </ul>
+    </section>
+    <section class="slide">
+      <h2>Figma vs Photoshop</h2>
+      <table class="striped">
+        <tbody>
+          <tr>
+            <th scope="col"></th>
+            <th>Figma</th>
+            <th>Photoshop</th>
+          </tr>
+          <tr>
+            <th scope="row">Вид графического редактора</th>
+            <td>Векторный</td>
+            <td>Растровый</td>
+          </tr>
+          <tr>
+            <th scope="row">Функционал</th>
+            <td>Простой и удобный</td>
+            <td>Более сложный редактор</td>
+          </tr>
+          <tr>
+            <th scope="row">Внесений быстрых изменений в дизайн</th>
+            <td>Возможно</td>
+            <td>Нет</td>
+          </tr>
+          <tr>
+            <th scope="row">Создание стилей</th>
+            <td>Да</td>
+            <td>Нет</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="slide">
+      <h2>Начало работы</h2>
+      <ol>
+        <li>На официальном сайте нажмите <b>&laquo;Sign up&raquo;</b></li>
+        <li>Авторизоваться через Google аккаунт или ввести пароль и почту</li>
+        <li>Введите имя и род деятельности</li>
+        <li>Нажмите <b>&laquo;Create Account&raquo;</b></li>
+        <li>Подтвердите регистрацию через почту</li>
+        <li>При необходимости создайте команду</li>
+        <li>Выберите тарифный план</li>
+      </ol>
     </section>
 
     <section class="slide">
